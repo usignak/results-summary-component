@@ -15,19 +15,11 @@
   margin: 0;
 }
 
-html {
-  height: 100%;
-}
-
 body {
-  height: 100%;
   background-color: hsl(221, 100%, 96%);
   font-size: 1.125rem;
   font-weight: 500;
   font-family: "Hanken Grotesk", sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .container {
@@ -176,6 +168,17 @@ body {
 }
 
 @media screen and (min-width: 735px) {
+  html {
+    height: 100%;
+  }
+
+  body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .container {
     flex-direction: row;
     justify-content: space-between;
